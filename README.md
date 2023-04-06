@@ -1,11 +1,11 @@
-About conda-forge-feedstock-check-solvable
-==========================================
+About conda-forge-feedstock-check-solvable-feedstock
+====================================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/conda-forge-feedstock-check-solvable-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/regro/conda-forge-feedstock-check-solvable
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/conda-forge-feedstock-check-solvable-feedstock/blob/main/LICENSE.txt)
 
 Summary: A mamba-based package to check if a conda-forge feedstock is solvable.
 
