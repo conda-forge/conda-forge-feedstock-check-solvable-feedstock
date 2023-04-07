@@ -1,5 +1,5 @@
 {% set name = "conda-forge-feedstock-check-solvable" %}
-{% set version = "0.2.0" %}
+{% set version = "0.3.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/regro/conda-forge-feedstock-check-solvable/archive/refs/tags/{{ version }}.tar.gz
-  sha256: 34209924fa538bb348ebfa508417dc6efe30adaac95ac2eb874d56407ffc4dc7
+  sha256: 472ce7fa0db878ea871816299ff03d958f37d359d370830525319e1f5a24bc2a
 
 build:
   script: {{ PYTHON }} -m pip install . -vv
