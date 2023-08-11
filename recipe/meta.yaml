@@ -18,6 +18,8 @@ requirements:
   host:
     - python >=3.7
     - pip
+    - setuptools_scm >=7
+    - setuptools >=45
   run:
     - python >=3.7
     - python-rapidjson
