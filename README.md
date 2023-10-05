@@ -146,6 +146,3 @@ Feedstock Maintainers
 * [@beckermr](https://github.com/beckermr/)
 * [@xhochy](https://github.com/xhochy/)
 
-
-<!-- dummy commit to enable rerendering -->
-
