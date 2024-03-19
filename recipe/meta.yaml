@@ -34,6 +34,9 @@ requirements:
     - ruamel.yaml.jinja2
     - conda-forge-metadata >=0.2.0
     - wurlitzer
+    - psutil
+    - libmambapy
+    - zstandard
 
 test:
   imports:
