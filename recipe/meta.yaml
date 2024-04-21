@@ -37,6 +37,7 @@ requirements:
     - psutil
     - libmambapy
     - zstandard
+    - boltons >=23.0.0
 
 test:
   imports:
