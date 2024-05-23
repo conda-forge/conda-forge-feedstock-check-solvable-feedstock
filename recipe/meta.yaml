@@ -30,12 +30,12 @@ requirements:
     - conda-package-handling
     - conda-smithy
     - conda-build
-    - mamba >=1.5.1
+    - mamba >=1.5.1,<2.0a0
     - ruamel.yaml.jinja2
     - conda-forge-metadata >=0.2.0
     - wurlitzer
     - psutil
-    - libmambapy
+    - libmambapy >=1.5.1,<2.0a0
     - zstandard
     - boltons >=23.0.0
 
