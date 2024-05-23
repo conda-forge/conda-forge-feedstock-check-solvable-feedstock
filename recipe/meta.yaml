@@ -1,5 +1,5 @@
 {% set name = "conda-forge-feedstock-check-solvable" %}
-{% set version = "0.5.2" %}
+{% set version = "0.6.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/regro/conda-forge-feedstock-check-solvable/archive/refs/tags/{{ version }}.tar.gz
-  sha256: 5cdfcb0b41c50f7fd2c3d92e577267e16d58ef691943de852bc105e96346b713
+  sha256: 5f7c62290e9a281ab9f6e5d672bfc63770ba6e1b53d636197b424413f4850086
 
 build:
   script: {{ PYTHON }} -m pip install . -vv
@@ -30,12 +30,12 @@ requirements:
     - conda-package-handling
     - conda-smithy
     - conda-build
-    - mamba >=1.5.1
+    - mamba >=1.5.1,<2.0a0
     - ruamel.yaml.jinja2
     - conda-forge-metadata >=0.2.0
     - wurlitzer
     - psutil
-    - libmambapy
+    - libmambapy >=1.5.1,<2.0a0
     - zstandard
     - boltons >=23.0.0
 
