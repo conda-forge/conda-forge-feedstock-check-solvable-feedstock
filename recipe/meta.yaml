@@ -21,23 +21,22 @@ requirements:
     - setuptools_scm >=7
     - setuptools >=45
   run:
-    - python >=3.7
+    - python >=3.7    
     - python-rapidjson
     - requests
     - ruamel.yaml
-    - cachetools
     - conda
     - conda-package-handling
     - conda-smithy
     - conda-build
-    - mamba >=1.5.1,<2.0a0
+    - libmambapy >=1.5.1,<2.0a0
     - ruamel.yaml.jinja2
     - conda-forge-metadata >=0.2.0
     - wurlitzer
     - psutil
-    - libmambapy >=1.5.1,<2.0a0
     - zstandard
     - boltons >=23.0.0
+    - py-rattler >=0.6.2,<0.7a0
 
 test:
   imports:
