@@ -11,17 +11,17 @@ source:
 
 build:
   script: {{ PYTHON }} -m pip install . -vv
-  number: 0
+  number: 1
   noarch: python
 
 requirements:
   host:
-    - python >=3.7
+    - python {{ python_min }}
     - pip
     - setuptools_scm >=7
     - setuptools >=45
   run:
-    - python >=3.7
+    - python >={{ python_min }}
     - python-rapidjson
     - requests
     - ruamel.yaml
@@ -39,6 +39,8 @@ requirements:
     - py-rattler >=0.6.2,<0.7a0
 
 test:
+  requires:
+    - python {{ python_min }}
   imports:
     - conda_forge_feedstock_check_solvable
 
