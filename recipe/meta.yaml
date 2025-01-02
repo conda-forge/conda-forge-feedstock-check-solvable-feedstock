@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/regro/conda-forge-feedstock-check-solvable/archive/refs/tags/{{ version }}.tar.gz
-  sha256: 1ec939cf10fbf68a14cea0d7d9014852d09089afb0a7d4d388e43f4bc514c4a0
+  sha256: 6facc3216db39713979857e35ba407caa5ab1fd90ce52600a73db1b0526e7056
 
 build:
   script: {{ PYTHON }} -m pip install . -vv
