@@ -37,6 +37,7 @@ requirements:
     - zstandard
     - boltons >=23.0.0
     - py-rattler >=0.9.0,<0.10a0
+    - pixi
 
 test:
   requires:
